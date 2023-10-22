@@ -1,0 +1,30 @@
+.thread-container{
+    box-sizing: border-box;
+    font-weight: 400;
+    height: 38px;
+    width: 200px;
+    padding-left: 16px;
+    padding-right: 8px;
+    font-size: 14px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #fcfcf9;
+    border-radius: 25px;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+
+}
+
+.shortcut{
+    margin-left: 5px;
+    border: 1px solid #e5e5df;
+    border-radius: 3px;
+    background-color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.thread-container:hover{
+    border-color: #20808d;
+    cursor: pointer;
+}

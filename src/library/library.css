@@ -1,0 +1,19 @@
+.library-container{
+    display: flex;
+    justify-content: center;
+}
+
+.library-new {
+    background-color: #c054ff;
+    color: #ffffff;
+    border-radius: 4px;
+    position: relative;
+    left: 40px; 
+    padding: 2px;
+    font-size: 11px;
+}
+
+.library-icon {
+	flex: 0 0 auto;
+	margin-right: 4px;
+}

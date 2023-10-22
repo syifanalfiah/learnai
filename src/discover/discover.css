@@ -1,0 +1,9 @@
+.discover-container {
+	display: flex;
+	justify-content: center;
+}
+
+.discover-icon {
+	flex: 0 0 auto;
+	margin-right: 2px;
+}

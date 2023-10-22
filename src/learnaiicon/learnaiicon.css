@@ -1,0 +1,49 @@
+
+.icon-container {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    font-size: 24px;
+    font-family: "grotesk-neue", ui-sans-serif, system-ui, -apple-system,
+		BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica Neue, "Noto Sans",
+		sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+		"Noto Color Emoji";
+
+  }
+  
+  .icon {
+    fill: #8b208d;
+    transition: fill 0.3s;
+  }
+  
+  .text {
+    color: #38133b;
+    transition: color 0.3s;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+  }
+  
+  .icon-container:hover .icon {
+    fill: #c11fcd;
+  }
+  
+  .icon-container:hover .text {
+    color: #c11fcd;
+  }
+
+  .stroke-super {
+    stroke: red;
+  }
+  
+  .dark\:stroke-superDark {
+    stroke: #20808d;
+  }
+  
+  .group-hover\:stroke-superDuper:hover {
+    stroke: #c11fcd;
+  } 
+  
+
+ 
